@@ -1,0 +1,134 @@
+<h1></h1> <!--Tag de Header--> <!--Elemento = vai com conteúdo dentro da tag-->
+<input type="text"> <!--Tag de Caixa de texto--> <!--Elemento vazio = não tem conteúdo dentro da tag-->
+<!--Digitação de Atributo <img src="" alt=""> -->
+<a href=""></a> <!--Tag que Adiciona o link na página-->
+<div class="Cart">
+    <h1>conteúdo</h1>
+</div>
+<div contenteditable="">
+    <h2>conteúdo</h2>
+</div>
+<div data-Lista="">
+    <h3>&apos; conteúdo</h3>
+</div>
+<div hidden>
+     conteúdo
+</div>
+<div id="content">
+    <h4>&quot; conteúdo</h4>
+</div>
+<div style="background-color: red;">
+    <h5>&amp; conteúdo</h5>
+</div>
+<div tabindex="1">
+    <h6>&gt; conteúdo</h6>
+</div>
+<div title="Olá">
+    &lt; conteúdo
+</div>
+
+<p>
+    vou <em>escrever</em> um parágrafo
+</p> <!--Tag de parágrafos--> <!--Alinhamento de Tags--> <!--O <em> está na tag <p> para dar enfâse deixando em hetálico, sendo uma tag filha da tag p então o p não pode ser fechado antes do em e sim depois--> 
+
+<p>
+    texto em inglês <br> quebra da linha 
+</p> <!--Exemplo de como quebrar a linha dentro de uma tag de posição em linha-->
+
+<meta charset="utf-8"> <!--Estou dizendo que meu documento aceita a maior quantidade de caracteres possivel-->
+
+<!--Cabeçalhos e Parágrafos, existem 6 tipos de formas de cabeçalhos (H1,H2,H3,H4,H5,H6), sendo h1 a principal, indicada para ser utilizada uma vez por página, e o resto serve como uma hierarquia sendo usado como subtitulos-->
+
+<!--Listas-->
+<!--li*nº é um atalho para criar a quantidade de tags li que você precisar-->
+
+Lista ordenada
+<ol>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+</ol>
+
+
+Lista não ordenada
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+</ul>
+
+<!--Citações
+    <blockquote> Aspas de citação
+    <cite>
+    <q>
+-->
+
+<blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes">
+    O <strong>Elemento HTML <code>&lt;blockquote&gt;</code></strong> (ou <em>HTML Block  Quotation Element</em>) indica que um texto externo foi citado.
+</blockquote>
+
+<p>
+    De acordo com <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes"> <cite> página MDN blockquote </blockquote></cite></a>
+</p>
+
+<p>
+    O elemento quote - <code>&lt;q&gt;</code>
+    é <q cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes">usado para citações curtas que não precisam de parágrafos ou quebra de linha</q> -- <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes"> <cite> MDN q Page </cite></a>.
+</p>
+
+<!-- Abreviações <abbr>: quando descansamos o mouse em cima da palavra abreviada aparece um texto abaixo dele -->
+
+<p>Usamos <abbr title="Hypertext Markup Language">HTML</abbr>para estruturar nossos documentos da web.</p>
+
+<!--Detalhes de contato <address> especifica o autor de quem fez o documento HTML-->
+
+<address>
+    <p>Agatha Pereira <br>
+    <strong>
+        São Paulo, SP.
+    </strong></p>
+</address>
+
+<!--Listas de descrição
+    <dl>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+Agrupamento de dados, marca um conjunto de itens e suas descrições
+-->
+<h2>Glossário</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>É um hipertexto...</dd>
+</dl>
+
+<!--
+    Representando códigos de computador
+    <code> (coisa pequena)
+        Partes genéricas do código
+    <pre> (coisa maior)
+        Blocos de código, pois essa tag mantém os espaços em branco e recuos que eu colocar no meu código
+-->
+
+<pre>
+    <code>
+        document 
+        .querySelector("Body")
+    </code>
+</pre>
+
+<!--[
+    Elementos genéricos
+    <div> (Agrupa conteúdos) (Trabalha em bloco)
+    <span> (Agrupa textos) (Trabalha em linha)
+-->
+
+<div> <!--Costuma vir com um class junto <div class=""> </> -->
+    Um texto
+</div>
+
+<span>outro</span> <span>texto</span>
