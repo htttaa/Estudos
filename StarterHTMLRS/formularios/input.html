@@ -1,0 +1,41 @@
+<!--
+    <input>
+    -Um dos mais usados em formulários
+    -Aceita os mais diversos tipos de dados
+    -Um dos mais poderosos e complexos
+    -Elevado número de combinações
+
+    Atributos
+    -type (define qual o tipo desse input, há diversos)
+    -name
+    -id
+
+        Atributos comuns
+        *-autocomplete (autocompleta com informações muito utilizadas no navegador)
+        *-autofocus (quando a page for carregada o cunsor será levada para o item em foco)
+        *-disabled (desabilita a função)
+        *-value (valor que fica aparecendo na barra, mesmo se for carregado volta, e se for desabilitado fica lá e não há como apagar)
+        *-readonly (desabilita mas não fica opaco)
+        *-form (linka com algum formulário via ID)
+        *-name (nomeia o input)
+        *-required (ao tentar enviar o formulário o input é obrigatório, não é enviado sem ser preenchido)
+        *-placeholder (password, search, tel, text, url) (não substitui o Label) (descreve o que é para ser digitado na barra de digitação)
+
+-->
+
+<input type="email"
+*autocomplete="email">
+
+<input type="text" autofocus>
+
+<input type="text" disabled>
+
+<input type="text" value="Escreva" disabled>
+
+<form id="meuform"></form>
+<input name="email" type="text" form="meuform">
+
+<input type="text" required>
+
+<label for="email">Email</label>
+<input id="email" type="email" placeholder="Digite seu email">
