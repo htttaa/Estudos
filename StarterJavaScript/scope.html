@@ -1,0 +1,31 @@
+<script>
+    //var é global( tudo o que está na tag script) e também local (o que está no escopo)
+    //hoisting (elevação, pega uma var e coloca no código global para imprimir )
+    // var x (ele traz o a var x para cima pois o js lê o codigo de cima para baixo)
+    console.log('> existe x antes do bloco? ', x)
+
+{ //local
+    var x = 0
+}
+
+console.log('existe x depois do bloco?', x)
+
+</script> 
+
+<script>
+{
+    let y = 0
+    console.log('> existe y antes do bloco? ', y) //let é local então precisa esta dentro do escopo onde foi criado
+}
+console.log('> existe y depois do bloco ', y)
+</script>
+
+<script>
+    
+    const y = 1; //caso eu queria criar uma constante com 2 valores, é necessário atribuir uma constante para cada valor, pois ela não é mutável, ao contrário da let
+    {
+        const y = 0
+        console.log('> existe y antes do bloco? ', y) //const é local então precisa esta dentro do escopo onde foi criado
+    }
+    console.log('> existe y depois do bloco ', y)
+    </script>
